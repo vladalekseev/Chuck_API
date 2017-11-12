@@ -1,0 +1,22 @@
+{
+  "name": "chuck-norris-jokes",
+  "version": "0.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Vlad Alekseev",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "express": "^4.14.0",
+    "express-jwt": "^3.4.0",
+    "jwks-rsa": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
